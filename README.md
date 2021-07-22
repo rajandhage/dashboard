@@ -1,0 +1,3 @@
+# dashboard
+dashboard2 IS FRONTEND WRITTEN IN REACT.JS
+dashboard_backend IS BACKEND AS NAME SUGGESTS TO RUN IN NODE
