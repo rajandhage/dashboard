@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+div.Rectangle{
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+
+    /* position: fixed; */
+    /* width: 1366px; */
+    width: 100vw;
+    height: 46px;
+}
+
+div.CompanyLogo{
+    width: 28px;
+height: 28px;
+left: 13px;
+top: 9px;
+
+background: #1E2F88;
+border-radius: 6px;
+
+position: absolute;
+left: 13px;
+top: 9px;
+bottom: 9px;
+right: 1325px;
+}
+
+div.CompanyName{
+    width: 92px;
+    height: 13px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+
+    position: absolute;
+    left:48px;
+    top: 19px;
+    bottom: 14px;
+    right: 1226px;
+}
+
+#line1 {
+    position: absolute;
+    left: 186px;
+    right: 1180px;
+    top: 4px;
+    bottom: 4px;
+
+
+    height: 38px;
+    width: 0;
+
+    border: 2px solid #E0E6ED;
+    /* transform: rotate(90deg); */
+}
+
+#tab1-logo {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 245px;
+    top: 14px;
+
+    background: #01C3BF;
+    border-radius: 3px;
+}
+
+#tab1-text{
+    position: absolute;
+    left: 268px;
+    right: 1057px;
+    top: 12px;
+    bottom: 14px;
+
+    width: max-content;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+
+/* display: flex;
+align-items: center; */
+
+
+color: #01C3BF;
+
+}
+
+#tab2-logo{
+    position: absolute;
+    left: 374px;
+    top:14px;    
+    width: 18px;
+    height: 18px;
+    
+
+    background: #C4C4C4;
+    border-radius: 3px
+}
+#tab2-text{
+    width: 51.65px;
+    height: 20px;
+    
+    position:absolute;
+    left: 402px;
+    top : 12px;
+    bottom: 14px;
+    right: 912.35px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    /* identical to box height, or 19px */
+
+    display: flex;
+    align-items: center;
+
+    /* color/gray/ash */
+
+    color: #A2AFC0;
+
+}
+
+#line2{
+    position: absolute;
+    left: 1078px;
+    right: 288px;
+    top:4px;
+    bottom: 4px;
+
+    height: 38px;
+    width: 0;
+
+/* color/gray/smoke */
+
+border: 2px solid #E0E6ED;
+/* transform: rotate(90deg);   */
+
+}
+
+.Info{
+    position: absolute;
+    top:11px;
+    left:1098px;
+    width: 24px;
+    height: 24px;
+    
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* color/gray/ash */
+    color: #A2AFC0;
+
+}
+
+.Bell{
+    position: absolute;
+    left:1144px;
+    right:201px;
+    top:-2px;
+
+    width: 21px;
+    height: 49px;
+
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 204.27%;
+    /* identical to box height, or 49px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* color/gray/ash */
+
+    color: #A2AFC0;
+}
+
+#line3{
+    position: absolute;
+    top : 4px;
+    left : 1185px;
+    right: 181px;
+    bottom: 4px;
+
+    height: 38px;
+    width: 0;
+
+    
+    border: 2px solid #E0E6ED;
+    /* transform: rotate(90deg); */
+
+}
+
+#username{
+    position: absolute;
+    left: 1216px;
+    top: 12px;
+
+    bottom: 14px;
+    right: 69px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+   
+    color: #8492A6;
+
+}
+
+#dp{
+    position: absolute;
+    left: 1313px;
+    top:7px;
+    
+    width: 32px;
+    height: 32px;
+    background: #A8026F;
+/* layer-1 */
+border-radius: 50%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#content{
+    position: absolute;
+    left: 9px;
+    top:5px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+

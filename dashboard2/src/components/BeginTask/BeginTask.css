@@ -1,0 +1,96 @@
+
+.add-record-form-flex-cotainer{
+    position: absolute;
+    top: 150px;
+    left : 50px;
+}
+
+.add-record-form{
+   
+    display: flex;
+    flex-direction: column;
+    min-width: 50vw;
+    height: 50vh;
+    background-color: white;
+    justify-content: space-evenly;
+    border-radius: 15px;
+
+}
+#patient-name, #diagnosis, #medical-rec-no, #admission-date{
+    /* margin-top: 3%; */
+    /* margin-left: 5%; */
+    width: 70%;
+    height: 8%;
+    border-radius: 5px;
+    border-color:  white;
+}
+
+.successMessage{
+    position: absolute;
+    top : 25%;
+    right: 42%;
+    
+    width: 150px;
+    height: 30px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 204.27%;
+    text-align: center;
+    color: green;
+    /* border : 1px solid rgb(17, 204, 58); */
+    /* outline-width: 10px; */
+}
+
+#submit-form{
+    /* margin-top: 3%; */
+    /* margin-left: 50px; */
+    border-radius: 5px;
+    width: 112px;
+    height: 32px;
+    background: #A9A9A9;;
+    border: 1px solid #A9A9A9;;
+    border-radius: 4px;
+    /* margin-left: 25px; */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 204.27%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#submit-form:hover{
+    background: grey;
+}
+.goToDashboardTablePage{
+    position: relative;
+    top : 100px;
+    left : 50px;
+
+    width: 132px;
+    height: 36px;
+    background: #01C3BF;
+
+    border: 1px solid #01C3BF;
+    border-radius: 4px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 204.27%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    cursor:pointer;
+}
+
+.goToDashboardTablePage:hover{
+    background: green;
+}

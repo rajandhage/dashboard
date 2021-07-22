@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+.containerOne{ 
+    width: 1305px;
+    /* height: 820px; */
+    background: #EAEAEA;
+
+    /* --- */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.textDashboard{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+
+    /* position: absolute; */
+    margin-left: 14px;
+    margin-top:25px;
+}
+
+
+
+.datatable{
+    /* position: absolute; */
+    top: 68px;
+    left : 14px;
+    right: 15px;
+    bottom : 67px;
+
+    margin-top: 15px;
+    margin-left: 14px;
+    margin-bottom: 20px;
+}
+
+.paginationKeys{
+    /* position: absolute; */
+    left:546px;
+
+    margin-top: 5px;
+    margin-left: 546px;
+    margin-bottom: 15px;
+}

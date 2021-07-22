@@ -1,0 +1,35 @@
+@import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
+
+.pagination-keys{
+}
+/* .pagination-keys > button{
+    margin: 10px;
+} */
+.key3, .key4, .key5, .key6{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid #92A9B4;
+}
+.key1, .key2, .key7, .key8 {
+    background-color: transparent;
+    border-color: transparent;
+
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.key3, .key4, .key5, .key6 {
+    width: 23px;
+    height: 21px;
+    text-align: left;
+
+}
+
+.key4, .key5, .key6 {
+    margin-left: 13px;
+}
